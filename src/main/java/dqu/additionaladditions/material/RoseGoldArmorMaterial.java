@@ -12,7 +12,7 @@ import java.util.Locale;
 
 public class RoseGoldArmorMaterial implements ArmorMaterial {
     private static final int[] BASE_DURABILITY = {264, 384, 360, 312};
-    private static final int[] PROTECTION_VALUES = {2, 6, 7, 2};
+    private static final int[] PROTECTION_VALUES = {3, 6, 7, 2};
     public static final String NAME = "rose_gold";
 
     @Override
@@ -42,7 +42,7 @@ public class RoseGoldArmorMaterial implements ArmorMaterial {
 
     @Override
     public float getToughness() {
-        return 1.0F;
+        return 1.5F;
     }
 
     @Override
